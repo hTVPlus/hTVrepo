@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="plugin.video.phimnhanh" version="1.1" name="*[COLOR lime][B]PhimNhanh.com[/B][/COLOR]" provider-name="HackPhone Repo,V137">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.requests" version="2.6.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>PhimNhanh.com</summary>
+			<description>PhimNhanh.com (Vietnamese)</description>
+			<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+			<platform>all</platform>
+		</extension>
+	</addon>

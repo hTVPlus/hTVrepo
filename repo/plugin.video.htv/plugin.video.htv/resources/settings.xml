@@ -1,0 +1,8 @@
+﻿<settings>
+	<category label="Tùy chọn">
+	    	
+	    <setting label="Mở chế độ tự động vào addon khi kodi khởi động (y/n)" type="bool" id="auto_mode" default="true" />
+	    <setting label="Tắt quảng cáo (y/n)" type="bool" id="temp_mode" default="false "/>
+	    <setting label="Thông tin quảng cáo" type="text" id="temp_patch" default="advertisement" visible="false" />
+	</category>
+</settings>

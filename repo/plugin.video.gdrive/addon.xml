@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.gdrive" version="0.7.17" name="*[COLOR lime][B]Gdrive[/B][/COLOR]" provider-name="HackPhone Repo, ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
+        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
+		<description lang="vi">Xem phim nghe nhạc trên Tài khoản Google Drive</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://spyphoneapps.com - SpyPhone</disclaimer>
+		<website>http://ownspy.spyphoneapps.com</website>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+

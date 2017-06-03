@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="resource.language.vi_vn" version="3.0.2" name="Vietnamese" provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="vi_VN">
+    <charsets>
+      <gui unicodefont="true">CP1258</gui>
+      <subtitle>CP1258</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Vietnamese language pack</summary>
+	<summary lang="vi">Gói Ngôn ngữ Việt nam</summary>
+    <description lang="en">Vietnamese version of all texts used in Kodi.</description>
+	<description lang="vi">Phiên bản ngôn ngữ Việt Nam cho Kodi, Phát triển và dịch của HackPhone từ phiên bản gốc của Kodi Team. hỗ trợ trên Kodi Phiên bản 17.0</description>
+	<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - ShopPro</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

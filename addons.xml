@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.hackphone" name="**[COLOR red][B]Hackphone Repository[/B][/COLOR]" version="1.0.5" provider-name="Hackphone Repo">
+	<extension point="xbmc.addon.repository" name="Hackphone Repository">
+		<info compressed="false">http://raw.github.com/hTVPlus/hTVrepo/master/addons.xml</info>
+		<checksum>http://raw.github.com/hTVPlus/hTVrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/hTVPlus/hTVrepo/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>**[COLOR red][B]Hackphone Repository[/B][/COLOR]</summary>
+		<description>Download and install addons from Repo Hackphone</description>
+		<description lang="vi">Tải về và cài đặt từ kho mã nguồn Repo HackPhone.net</description>
+		<disclaimer lang="vi">Repo Hackphone Được biên tập hoặc tổng hợp từ nhiều nguồn trên Intenet. Miễn phí và mãi mãi là Miễn phí. Tại trợ từ http://shopgps.net</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.htv" version="1.0.2" name="*[COLOR lime][B]hTV Plus[/B][/COLOR]" provider-name="HackPhone Repo">
+	<requires> 
+		<import addon="script.module.simplejson" />	
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simple.downloader" version="1.9.4" />
+	</requires>
+	
+	<extension point="xbmc.python.pluginsource" library="tvchannel.py">  
+		<provides>video</provides>    
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>*[COLOR lime][B]hTV Plus[/B][/COLOR]</summary>
+		<description>[COLOR red][B]Add-on Xem truyền hình Online Tổng hợp được viết lại dựa trên addon của tác giả itv member[/B][/COLOR]</description>
+		<disclaimer>Tất cả nội dung được lấy từ Internet - chúng tôi hoàn toàn không chịu trách nhiệm về bản quyền hay độ ổn định của chương trình</disclaimer>
+		<disclaimer lang="vi">Được tài trợ bởi http://softwarepda.net - SpyPhone</disclaimer>
+		<website>http://softwarepda.net</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.xemphim73" version="1.1" name="*[COLOR lime][B]XemPhim 73[/B][/COLOR]" provider-name="HackPhone Repo, V137">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.requests" version="2.6.0"/>
+			<import addon="script.module.urlresolver" version="1.0.0"/>
+			<import addon="script.module.xbmcswift2" version="1.3.1" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>XemPhim 73</summary>
+			<description>XemPhim 73 (Vietnamese)</description>
+			<description lang="vi">Xem phim trên XemPhim73.com</description>
+			<disclaimer lang="vi">Được tài trợ bởi http://theodoidienthoai.net</disclaimer>
+			<website>http://theodoidienthoai.net</website>
+			<platform>all</platform>
+		</extension>
+</addon>
+<addon id="plugin.video.gdrive" version="0.7.17" name="*[COLOR lime][B]Gdrive[/B][/COLOR]" provider-name="HackPhone Repo, ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image programs</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Listen to music, watch videos and view photos from your Google Drive account</summary>
+        <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
+		<description lang="vi">Xem phim nghe nhạc trên Tài khoản Google Drive</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://theodoidienthoai.net</disclaimer>
+		<website>http://theodoidienthoai.net</website>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.xemphimso" version="0.0.3" name="*[COLOR lime][B]XemPhimSo[/B][/COLOR]" provider-name="HackPhone Repo, traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true"/>
+    <import addon="script.module.requests" version="2.4.3" />        
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="xemphimso.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Watch Movies on xemphimso.com</description>
+	<description lang="vi">Xem phim trên Xemphimso.com</description>
+	<disclaimer lang="vi">Được tài trợ bởi http://theodoidienthoai.net</disclaimer>
+	<website>http://theodoidienthoai.net</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.phimdata" version="2.2" name="*[COLOR lime][B]PhimData.com[/B][/COLOR]" provider-name="HackPhone Repo, V137">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.pil" version="1.1.7" />
+			<import addon="script.module.requests" version="2.6.0" />
+			<import addon="script.module.urlresolver" version="1.0.0" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>PhimData.com</summary>
+			<description>PhimData.com (Vietnamese)</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+<addon id="plugin.video.phimvang" version="1.1.1" name="*[COLOR lime][B]Phim Vang[/B][/COLOR]" provider-name="HackPhone Repo, traitravinh">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true"/>
+    <import addon="script.module.requests" version="2.4.3" />        
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="phimvang.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch Movies</summary>
+    <description>Xem Phim trên phimvang.com</description>
+	<website>http://softwarepda.net</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.megabox" name="*[COLOR lime][B]Phim MegaBox[/B][/COLOR]" version="2.1.4" provider-name="HackPhone Repo, HCMLIKE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HCMLIKE-Media HD Film</summary>
+    <description>HD Film</description>
+	<disclaimer lang="en">
+[COLOR lime]Copyright © HCMLIKE.com. 
+[COLOR red]Nguồn phát bởi MegaBox và một số nguồn khác trên Internet. Chúng tôi không kiểm soát bất kỳ nguồn phim nào, cũng như không chịu trách nhiệm bản quyền nội dung trên các phim. Người xem đồng ý và cân nhắc nội dung mà mình muốn xem.[/COLOR]</disclaimer>
+    <platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<website>http://theodoidienthoai.net</website>
+  </extension>
+</addon>
+<addon id="plugin.video.phim14.net" version="2.0.9" name="*[COLOR lime][B]Phim14.net[/B][/COLOR]" provider-name="HackPhone Repo">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.xbmcswift2" version="1.3.1" />
+			<import addon="plugin.video.youtube" version="4.4.1" />
+			<import addon="script.module.requests" version="2.6.0"/>
+			<import addon="script.module.t0mm0.common" version="1.1.0"/>
+		</requires>
+		<extension library="default.py" point="xbmc.python.pluginsource">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Phim14.net</summary>
+			<description>Phim14.net (Vietnamese)</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+<addon id="plugin.video.anhtrang" version="2.2" name="*[COLOR lime][B]AnhTrang[/B][/COLOR]" provider-name="HackPhone Repo">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.pil" version="1.1.7" />
+			<import addon="script.module.requests" version="2.6.0" />
+			<import addon="script.module.urlresolver" version="1.0.0" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>AnhTrang.org</summary>
+			<description>AnhTrang.org (Vietnamese)</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+<addon id="plugin.video.htvonline" version="1.0.6" name="*[COLOR lime][B]HTV Online[/B][/COLOR]" provider-name="HckPhone Repo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HTV Online</summary>
+    <description>Watch free HTVOnline.com.vn (Vietnamese) Channels</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.phimnhanh" version="1.1" name="*[COLOR lime][B]PhimNhanh.com[/B][/COLOR]" provider-name="HackPhone Repo,V137">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.requests" version="2.6.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>PhimNhanh.com</summary>
+			<description>PhimNhanh.com (Vietnamese)</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+<addon id="plugin.video.ccloudtv" name="*[COLOR lime][B]cCloud TV[/B][/COLOR]" version="1.4.7" provider-name="HackPhone Repo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>All the best from cCloud TV</summary>
+    <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream yup it's that simple. Just go to http://ccloudtv.org  and enjoy:) Please report any channels that are down here http://www.tiny.cc/reportchs 
+    </description>
+    <email/>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="script.facebook.media" name="*[COLOR lime][B]Facebook Media[/B][/COLOR]" version="0.9.15" provider-name="HackPhone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.simplejson" version="2.0.9" />
+		<import addon="script.module.mechanize" version="0.2.6" />
+		<import addon="script.module.oauth.helper" version="0.0.7"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+		<provides>image</provides>
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Browse Facebook photos and videos</summary>
+		<description lang="en">Browse your and your friends' photos and videos. View and add comments and likes. View image tags.</description>
+	</extension>
+</addon>
+<addon id="weather.yahoo" name="Yahoo! Weather" version="4.2.1" provider-name="HackPhone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.weather" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Weather forecast from yahoo.com</summary>
+		<summary lang="vi">Dự báo thời tiết từ yahoo.com</summary>
+		<description lang="en">Weather forecast provided by Yahoo! Weather (http://weather.yahoo.com/)</description>
+		<description lang="vi">Dự báo thời tiết được cung cấp bởi Yahoo! thời tiết (http://weather.yahoo.com/)</description>
+		<disclaimer lang="en">Use of this add-on implies that you have agreed to the Terms of Service located at http://developer.yahoo.com/weather/#terms</disclaimer>
+		<disclaimer lang="vi">Sử dụng tiện ích này ngụ ý rằng bạn đã đồng ý với điều khoản Dịch vụ từ http://developer.yahoo.com/weather/#terms</disclaimer>
+		<language>vi</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=169410</forum>
+		<website>http://theodoidienthoai.net</website>
+		<email></email>
+		<source>https://github.com/ronie/weather.yahoo</source>
+	</extension>
+</addon>
+<addon id="plugin.video.xshare" name="*[COLOR lime][B]Xshare-Kodi HD Video[/B][/COLOR]" version="3.4.5.1" provider-name="HackPhone Repo">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="xshare.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Xshare - Kodi HD Video</summary>
+		<description lang="vi">Tìm và Xem HD Video trên XBMC từ: fshare.vn, 4share.vn, vaphim.com, ifile.tv, phimfshare.com, fptplay.net, hdvietnam.com, megabox.vn, dangcaphd.com, hayhaytv.vn, hdviet.com, pubvn.net, vuahd.tv, phimmoi.net, hdonline.vn, phim3s.net, kenh88.com, phimdata.com, phimsot.com, phim47.com</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+		<website>http://theodoidienthoai.net</website>
+    </extension>
+</addon>
+<addon id="plugin.video.fptplay" name="*[COLOR lime][B]FPT Play[/B][/COLOR]" version="1.6.1" provider-name="HackPhone Repo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service"
+			library="start.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Vietnam TV Online</summary>
+    <description lang="en">This plugin allows you to watch live TV channels in Vietnam - Source from ftp play sites (http://fptplay.net)</description>
+	<language>vi</language>
+	<description lang="vi">Plugin này cho phép bạn để xem trực tiếp các kênh truyền hình Việt Nam - nguồn từ ftp chơi các trang web fptplay.net và Zing TV</description>
+	<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+	<language>vi</language>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	<forum></forum>
+	<website>https://theodoidienthoai.net</website>
+	<disclaimer></disclaimer>
+	<email></email>
+	<broken></broken>
+  </extension>
+</addon>
+<addon id="plugin.video.vod.9movies" name="9movies" version="1.0.2" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.7.1" provider-name="MetalKettle">
+	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">http://offshoregit.com/metalkettle/addons.xml</info>
+		<checksum>http://offshoregit.com/metalkettle/addons.xml.md5</checksum>
+		<datadir zip="true">http://offshoregit.com/metalkettle/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from MetalKettle</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.castaway" name="*[COLOR lime][B]Castaway[/B][/COLOR]" version="0.2.3" provider-name="HackPhone Repo, natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+		<import addon="script.module.mechanize"  />
+    	<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver"  />    	
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Just a castaway.</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>		
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.freshstart" name="Fresh Start"
+	version="1.0.5" provider-name="tvaddons.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Factory Restore Functionality for Kodi</summary>
+    <description lang="en">Easily Factory Restore your Kodi Configuration in One Simple Click! This tool will bring your Kodi back to its original installation state, deleting all customizations and add-ons you may have previously enabled, giving you a fresh start!</description>
+	<description lang="vi">Dễ dàng phục hồi lại cấu hình Kodi của bạn bằng một nhấp chuột đơn giản! Công cụ này sẽ mang lại cho bạn Kodi quay lại ban đầu cài đặt trạng thái của nó, xóa tất cả các tùy chỉnh và các tiện ích mà bạn có thể trước đó đã bật, đem lại cho bạn một khởi đầu mới!</description>
+    <platform>all</platform>
+    <website>http://shopgps.net</website>
+  </extension>
+</addon>
+<addon id="plugin.video.football.today" name="Football Today" version="3.0.0" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Football on demand</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<website>https://spyphoneapps.com</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.program.addoninstaller" version="1.2.0" name="Addon Installer" provider-name="tvaddons.ag, Blazetamer, TheHighway">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon Browser</summary>
+        <description lang="en">Its like an App Store where you'll find Addons for Kodi, and everything is free!</description>
+		<description lang="vi">Nó giống như một cửa hàng ứng dụng mà bạn sẽ tìm thấy Addons Kodi, và tất cả mọi thứ là miễn phí!</description>
+        <disclaimer lang="en">By using this, you take reponsibility for anything that happens.</disclaimer>
+		<disclaimer lang="en">Bằng cách sử dụng, bạn đồng ý cho bất cứ điều gì sẽ xảy ra.</disclaimer>   
+        <platform>all</platform>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+<addon id="plugin.video.vod.zingtv" name="*[COLOR lime][B]Zing TV[/B][/COLOR]" version="1.0.1" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.6.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Zing TV</summary>
+		<description lang="vi">Giải trí Miễn phí trên Zing TV</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.vod.xomgiaitri" name="Xom Giai Tri" version="1.3.4" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xom Giai Tri</summary>
+		<description lang="vi">Giải trí Miễn phí trên Xom Giai Tri</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.vod.phimmoi" name="*[COLOR lime][B]PhimMoi[/B][/COLOR]" version="1.3.8" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">PhimMoi</summary>
+		<description lang="vi">Giải trí Miễn phí trên PhimMoi</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.vod.phimlt" name="*[COLOR lime][B]PhimLT[/B][/COLOR]" version="1.3.6" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">PhimLT</summary>
+		<description lang="vi">Giải trí Miễn phí trên PhimLT</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.vod.phim7" name="*[COLOR lime][B]Phim7[/B][/COLOR]" version="1.3.5" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Phim7</summary>
+		<description lang="vi">Giải trí Miễn phí trên Phim7</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.vod.phim3s" name="*[COLOR lime][B]Phim3s[/B][/COLOR]" version="1.3.8" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Phim3s</summary>
+		<description lang="vi">Giải trí Miễn phí trên Phim3s</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.vod.hdonline" name="*[COLOR lime][B]HDOnline[/B][/COLOR]" version="1.0.5" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>HDOnline</summary>
+		<description lang="vi">Giải trí miễn phí trên HDOnline</description>
+		<disclaimer lang="vi">Được tài trợ bởi http://shopgps.net - Shop Pro</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.vod.hdviet" name="**[COLOR lime][B]HDViet[/B][/COLOR]" version="1.0.1" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">HDViet</summary>
+		<description>Xem Phim Miễn phí trên HDViet</description>
+		<disclaimer lang="en">Xin Chào!</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.kodidangcapdigital"
+		name="*[COLOR red][B]ĐẲNG CẤP DIGITAL Repository[/B][/COLOR]"
+		version="1.0.0"
+		provider-name="HackPhone Reo, ĐẲNG CẤP DIGITAL">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository"
+		name="DANG CAP DIGITAL Add-on Repository">
+		<info compressed="true">http://kodi.tivibox.vn/DC_REPO/addons.xml</info>
+		<checksum>http://kodi.tivibox.vn/DC_REPO/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodi.tivibox.vn/DC_REPO</datadir>
+		<hashes>true</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">KODI DANG CAP DIGITAL</summary>
+		<description lang="en">Download and install add-ons from [COLOR red][B]ĐẲNG CẤP DIGITAL Repository[/B][/COLOR]</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.itvplus"
+		name="*[COLOR red][B]ITV Repository[/B][/COLOR]"
+		version="1.0.0"
+		provider-name="HackPhone Repo, ITV member">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+	<extension point="xbmc.addon.repository" name="ITV Add-on's Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">*[COLOR red][B]ITV Repository[/B][/COLOR]</summary>
+		<description lang="en">Download and install addons from ITV Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.kodi4vn" name="*[COLOR red][B]Kodi4VN REPO[/B][/COLOR]" version="1.3" provider-name="HackPhone Repo, ThongLD">
+	<extension point="xbmc.addon.repository" name="ThongLD's Addon Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>*[COLOR red][B]Kodi4VN REPO[/B][/COLOR]</summary>
+		<description>Download and install addons from Kodi4VN's Repo: Best addons for Vietnamesse</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.program.myip" name="My IP" version="1.0.3" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="repository.hackphone" name="**[COLOR red][B]Hackphone Repository[/B][/COLOR]" version="1.0.5" provider-name="Hackphone Repo">
+	<extension point="xbmc.addon.repository" name="Hackphone Repository">
+		<info compressed="false">http://spyphoneapps.com/repo/addons.xml</info>
+			<checksum>http://spyphoneapps.com/repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://spyphoneapps.com/repo/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>HackPhone Repository</summary>
+		<description>Download and install addons from Repo Hackphone</description>
+		<description lang="vi">Tải về và cài đặt từ kho mã nguồn Repo HackPhone.net</description>
+		<disclaimer lang="vi">Repo Hackphone Được biên tập hoặc tổng hợp từ nhiều nguồn trên Intenet. Miễn phí và mãi mãi là Miễn phí. Tại trợ từ http://shopgps.net</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.tube8" name="*[COLOR lime][B]Tube8[/B][/COLOR]" version="2.1.10" provider-name="Hackphone Repo">
+	<requires><import addon="xbmc.python" version="2.1.0"/></requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>Stream adult videos from tube8.com</summary>
+	<description lang="en">Tube8.com features a variety of adult videos. This addon contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon.  All content is hosted by tube8.com.</description>
+	<description lang="vi">Tube8.com đặc trưng một loạt các video dành cho người lớn. Addon này chứa dữ liệu rõ ràng dành cho người lớn. Bạn chỉ có thể xem chương trình bổ trợ này nếu bạn có ít nhất 18 tuổi, hoặc ít nhất là tuổi phần lớn trong thẩm quyền nơi bạn cư trú hoặc từ đó bạn truy cập vào nội dung này. Nếu bạn không đáp ứng những yêu cầu này, sau đó bạn không có quyền để sử dụng addon này.  Tất cả nội dung được lưu trữ bởi tube8.com.</description>
+	<disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+	<platform>all</platform>
+	</extension>
+	<nofanart>true</nofanart>
+</addon>
+<addon id="plugin.video.youtube" name="*[COLOR lime][B]YouTube[/B][/COLOR]" version="5.2.2" provider-name="Hackphone Repo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="en">Plugin for YouTube</summary>
+        <description lang="en">YouTube is one of the biggest video-sharing websites of the world.</description>
+		<description lang="en">YouTube là một trong các trang web chia sẻ video lớn nhất thế giới.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=267160</forum>
+		<website>http://spyphoneapps.com</website>
+		<email></email>
+		<source>https://hackphone.net/repo/plugin.video.youtube</source>
+	</extension>
+</addon>
+<addon id="plugin.video.xbmchubmaintenance" version="2.1.3"
+	name="Maintenance Tool" provider-name="tvaddons.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.addon.common" />
+    <import addon="script.module.metahandler" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Maintenance Tool</summary>
+    <description lang="en">Maintenance Tool is your one stop tool for all fixes and information.</description>
+	<description lang="en">Maintenance Tool là Công cụ bảo trì cho tất cả các bản sửa lỗi và các thông tin.</description>
+    <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/130-MAINTENANCE-TOOL</forum>
+    <website>http://www.hackphone.net/</website>
+  </extension>
+</addon>
+</addons>

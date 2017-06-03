@@ -1,0 +1,20 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.hackphone" name="**[COLOR red][B]Hackphone Repository[/B][/COLOR]" version="1.0.5" provider-name="Hackphone Repo">
+	<extension point="xbmc.addon.repository" name="Hackphone Repository">
+		<dir>
+			<info compressed="false">http://kenh2.890m.com/repo/addons.xml</info>
+			<checksum>http://kenh2.890m.com/repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://kenh2.890m.com/repo/repo/</datadir>
+		</dir>
+		<info compressed="false">http://spyphoneapps.com/repo/addons.xml</info>
+		<checksum>http://spyphoneapps.com/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://spyphoneapps.com/repo/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>**[COLOR red][B]Hackphone Repository[/B][/COLOR]</summary>
+		<description>Download and install addons from Repo Hackphone</description>
+		<description lang="vi">Tải về và cài đặt từ kho mã nguồn Repo HackPhone.net</description>
+		<disclaimer lang="vi">Repo Hackphone Được biên tập hoặc tổng hợp từ nhiều nguồn trên Intenet. Miễn phí và mãi mãi là Miễn phí. Tại trợ từ http://shopgps.net</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>

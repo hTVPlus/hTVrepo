@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.htv" version="1.0.2" name="*[COLOR lime][B]hTV Plus[/B][/COLOR]" provider-name="HackPhone Repo">
+	<requires> 
+		<import addon="script.module.simplejson" />	
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simple.downloader" version="1.9.4" />
+	</requires>
+	</extension>
+    <extension point="xbmc.service" library="autorun.py" start="startup">
+    </extension>  
+	<extension point="xbmc.python.pluginsource" library="tvchannel.py">  
+		<provides>video</provides>    
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>*[COLOR lime][B]hTV Plus[/B][/COLOR]</summary>
+		<description>[COLOR red][B]Add-on Xem truyền hình Online Tổng hợp được viết lại dựa trên addon của tác giả itv member[/B][/COLOR]</description>
+		<disclaimer>Tất cả nội dung được lấy từ Internet - chúng tôi hoàn toàn không chịu trách nhiệm về bản quyền hay độ ổn định của chương trình</disclaimer>
+		<disclaimer lang="vi">Được tài trợ bởi http://spyphoneapps.com - SpyPhone</disclaimer>
+		<website>http://ownspy.spyphoneapps.com</website>
+		<platform>all</platform>
+	</extension>
+</addon>
