@@ -120,7 +120,7 @@ def parameters_string_to_dict(parameters):
     return paramDict
 
 	
-temp = 'aHR0cDovL3NweXBob25lYXBwcy5jb20vcmVwby90di9NZW51VFYueG1s'	
+temp = 'aHR0cHM6Ly9yYXdnaXQuY29tL2hUVlBsdXMvaFRWcmVwby9tYXN0ZXIvaHR2cGx1cy9NZW51VFYueG1s'	
 params=parameters_string_to_dict(sys.argv[2])
 mode=params.get('mode')
 url=params.get('url')
