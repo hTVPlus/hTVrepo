@@ -1,0 +1,140 @@
+﻿
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<channel>
+<name>Kenh Ca Nhac</name>
+<items>
+
+<item>
+<title>Nhạc Của Tui</title>
+<link>http://123.30.134.108:1935/live/nctlive/playlist.m3u8</link>
+<thumbnail>http://stc.id.nixcdn.com/10/images/logo_600x600.png</thumbnail>
+</item>
+
+<item>
+<title>[V] HD</title>
+<link>http://hlscache.fptplay.net.vn/live/htvcplusHD_2500.stream/chunklist.m3u8?token=c335VydmVyX3RpbWU9MTQwMjYxNzIyNCZoYXNoX3ZhbHVl&did=NzIyNCZoYXNoX3ZhbHVl</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/27122013/channel-v_69131388140752.png</thumbnail>
+</item>
+
+<item>
+<title>HTVC - Ca Nhạc</title>
+<link>http://www.htvonline.com.vn/livetv/htvc-ca-nhac-34376E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/27122013/htvmusic_77851388140058.png</thumbnail>
+</item>
+
+<item>
+<title>YEAH 1</title>
+<link>http://www.htvonline.com.vn/livetv/yeah1-3133396E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/19072014/image001_96451405738891.png</thumbnail>
+</item>
+
+<item>
+<title>MTV</title>
+<link>http://www.htvonline.com.vn/livetv/mtv-31346E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/27122013/mtv_44091388140692.png</thumbnail>
+</item>
+
+<item>
+<title>KÊNH 9 MUSIC</title>
+<link>rtmp://27.118.16.16/live//9_music swfUrl=http://live.lifetv.vn/jwplayer/player.swf pageUrl=http://live.lifetv.vn/</link>
+<thumbnail>http://xbmc.itvplus.net/LOGO/LIFE/K9A.png</thumbnail>
+</item>
+
+<item>
+<title>Viet MTV</title>
+<link>http://64.62.143.5:1935/live/donotstealmy-Stream1/playlist.m3u8?bitrate=800&q=high</link>
+<thumbnail>https://lh3.googleusercontent.com/-GOCcPbjEW2U/Ud11H7xAJ3I/AAAAAAAAA-M/r2G4-zL96vs/w397-h136-no/vietmtv.png</thumbnail>
+</item>
+<item>
+<title>VMusic TV</title>
+<link>http://206.190.136.254/liveStream/mtv_1/playlist.m3u8</link>
+<thumbnail>http://www.viettv24.com/main/images/Vmusic_logo.jpg</thumbnail>
+</item>
+<item>
+<title>VPop TV</title>
+<link>http://206.190.136.254/liveStream/vpoptv_1/playlist.m3u8</link>
+<thumbnail>http://www.viettv24.com/main/images/VpopTV_logo.jpg</thumbnail>
+</item>
+
+<item>
+<title>Nhạc CỔ ĐIỂN</title>
+<link>
+http://live.cdn.mobifonetv.vn/motv3/nhaccodien_hls.smil/playlist.m3u8
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/nhaccodien.png</thumbnail>
+</item>
+
+<item>
+<title>Nhạc CÁCH MẠNG</title>
+<link>
+http://live.cdn.mobifonetv.vn/motv3/nhaccachmang_hls.smil/playlist.m3u8
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/nhaccachmang.png</thumbnail>
+</item>
+
+<item>
+<title>Nhạc TRẺ</title>
+<link>
+http://live.cdn.mobifonetv.vn/motv3/nhactre_hls.smil/playlist.m3u8
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/nhactre.png</thumbnail>
+</item>
+
+<item>
+<title>Nhạc NAM BỘ</title>
+<link>
+http://live.cdn.mobifonetv.vn/motv3/nhacnambo_hls.smil/playlist.m3u8
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/nhacnambo.png</thumbnail>
+</item>
+
+<item>
+<title>ITV HD</title>
+<link>
+http://xmiolive.e14538a7.viettel-cdn.vn/itvhd.smil/chunklist_b1500000.m3u8
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/hd-vtc13.png</thumbnail>
+</item>
+
+<item>
+<title>MTV</title>
+<link>rtmp://85.132.78.6:1935/live/ playpath=muztv.stream swfUrl=http://zui.vn/templates/images/jwplayer.swf pageUrl=http://zui.vn/livetv/mtv-81.html live=1</link>
+<thumbnail>http://nyoobserver.files.wordpress.com/2011/08/mtv.png</thumbnail>
+</item>
+<item>
+<title>VEVO HD 1</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/06/prog_index.m3u8
+</link>
+<thumbnail>http://channels.roku.com/images/c0c2c0ac8b62409fad03b5ade06b8511-hd.jpg</thumbnail>
+</item>
+<item>
+<title>VEVO HD 2</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/06/prog_index.m3u8
+</link>
+<thumbnail>http://channels.roku.com/images/c0c2c0ac8b62409fad03b5ade06b8511-hd.jpg</thumbnail>
+</item>
+<item>
+<title>VEVO HD 3</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/06/prog_index.m3u8
+</link>
+<thumbnail>http://channels.roku.com/images/c0c2c0ac8b62409fad03b5ade06b8511-hd.jpg</thumbnail>
+</item>
+
+<item>
+<title>Thúy Nga</title>
+<link>http://spyphoneapps.com/repo/tv/ThuyNga.xml</link>
+<thumbnail>http://channels.roku.com/images/c0c2c0ac8b62409fad03b5ade06b8511-hd.jpg</thumbnail>
+</item>
+
+<item>
+<title>MUSSIC FOR YOU</title>
+<link>
+http://203.151.87.82:9000/udp/239.101.1.4:1234
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/mussicforyou.png</thumbnail>
+</item>
+
+</items>
+</channel>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<channel>
+<items>
+<item>
+<title>TIVI HD</title>
+<link>http://bit.ly/hd-tivi</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-tivihd.png</thumbnail>
+</item>
+
+<item>
+<title>VTV</title>
+<link>http://bit.ly/kenhvtv</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-vtv.png</thumbnail>
+</item>
+
+<item>
+<title>HTV</title>
+<link>http://bit.ly/kenhhtv</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-htv.png</thumbnail>
+</item>
+
+<item>
+<title>VTC</title>
+<link>http://bit.ly/kenhvtc</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-vtc.png</thumbnail>
+</item>
+
+<item>
+<title>VTVCab</title>
+<link>http://bit.ly/kenhvtvcab</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-vtvcab.png</thumbnail>
+</item>
+
+<item>
+<title>Tổng hợp</title>
+<link>http://bit.ly/TongHop</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-khac.png</thumbnail>
+</item>
+
+<item>
+<title>Kênh Địa Phương</title>
+<link>http://bit.ly/kenhdph</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-diaphuong.png</thumbnail>
+</item>
+
+<item>
+<title>Phim Truyện</title>
+<link>http://bit.ly/kenhpt</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-phim.png</thumbnail>
+</item>
+
+<item>
+<title>THIẾU NHI</title>
+<link>http://bit.ly/kenhhhinh</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-thieunhi.png</thumbnail>
+</item>
+
+<item>
+<title>Thể Thao</title>
+<link>http://bit.ly/thethao-tv</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-thethao.png</thumbnail>
+</item>
+
+<item>
+<title>Nước Ngoài</title>
+<link>http://bit.ly/KenhQT</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-nuocngoai.png</thumbnail>
+</item>
+
+<item>
+<title>Hải Ngoại</title>
+<link>http://spyphoneapps.com/repo/tv/KenhHaiNgoai.xml</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-haingoai.png</thumbnail>
+</item>
+
+<item>
+<title>KARAOKE</title>
+<link>http://spyphoneapps.com/repo/tv/Karaoke.xml</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-karaoke.png</thumbnail>
+</item>
+
+<item>
+<title>Ca Nhạc</title>
+<link>http://spyphoneapps.com/repo/tv/KenhCaNhac.xml</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-canhac.png</thumbnail>
+</item>
+
+<item>
+<title>TOM và JERRY</title>
+<link>http://spyphoneapps.com/repo/tv/tom-jerry.xml</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/m-hoathinh.png</thumbnail>
+</item>
+
+</items>
+</channel>

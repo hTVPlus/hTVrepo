@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<channel>
+<name>Kenh Dia Phuong</name>
+<items>
+
+
+<item>
+<title>HÀ NỘI 1</title><link>
+plugin://plugin.video.fptplay/plays/hanoi-1
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/ha-noi-1.jpg
+</thumbnail>
+</item>
+<item>
+<title>HÀ NỘI 1 HD</title><link>
+http://27.67.50.69:18080/9_2.m3u8?AdaptiveType=HLS
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/hd-hanoi1.png
+</thumbnail>
+</item>
+
+
+
+
+<item>
+<title>HÀ NỘI 2</title>
+<link>
+http://27.67.50.71:18080/10_2.m3u8?AdaptiveType=HLS
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/ha-noi-2.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>HÀ NỘI 2</title><link>
+plugin://plugin.video.fptplay/plays/hanoi-2
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/ha-noi-2.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BẮC CẠN</title>
+<link>
+http://27.67.50.69:18080/78_2.m3u8?AdaptiveType=HLS
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/bac-can.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BẮC CẠN</title><link>
+plugin://plugin.video.fptplay/plays/hanoi-1
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/bac-can.jpg
+</thumbnail>
+</item>
+<item>
+<title>BÀ RỊA VŨNG TÀU BRT</title>
+<link>
+http://htvonline.com.vn/livetv/ba-ria-3133306E61.html
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/ba-ria.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BẠC LIÊU</title>
+<link>http://htvonline.com.vn/livetv/bac-lieu-3132316E61.html</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/bac-lieu.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BẮC GIANG</title>
+<link>http://htvonline.com.vn/livetv/bac-giang-bgtv-36366E61.html</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/bac-giang.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BẮC NINH</title>
+<link>
+http://27.67.50.68:18080/92_2.m3u8?AdaptiveType=HLS
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/bac-ninh.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BÌNH DƯƠNG 1</title>
+<link>http://htvonline.com.vn/livetv/binh-duong-1-3130326E61.html</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/binh-duong-1.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BÌNH DƯƠNG 2</title>
+<link>http://htvonline.com.vn/livetv/btv2-3135316E61.html</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/binh-duong-2.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BÌNH DƯƠNG 4</title><link>
+http://27.67.50.69:18080/32_2.m3u8?AdaptiveType=HLS
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/imove-hd.png</thumbnail>
+</item>
+
+<item>
+<title>BÌNH ĐỊNH</title>
+<link>http://htvonline.com.vn/livetv/binh-dinh-btv-33356E61.html</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/binh-dinh.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BÌNH PHƯỚC</title>
+<link>http://htvonline.com.vn/livetv/binh-phuoc-bptv1-33346E61.html</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/binh-phuoc1.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>BÌNH THUẬN</title>
+<link>
+http://27.67.50.68:18080/118_2.m3u8?AdaptiveType=HLS
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/binh-thuan.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>CẦN THƠ</title>
+<link>http://htvonline.com.vn/livetv/can-tho-thtpct-3130336E61.html</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/can-tho.jpg
+</thumbnail>
+</item>
+
+<item>
+<title>CÀ MAU</title>
+<link>http://htvonline.com.vn/livetv/ca-mau-ctv-36376E61.html</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/ca-mau.jpg</thumbnail>
+</item>
+
+<item>
+<title>ĐÀ NẴNG 2</title>
+<link>http://htvonline.com.vn/livetv/da-nang-2-3134386E61.html</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/da-nang-2.jpg</thumbnail>
+</item>
+
+<item>
+<title>ĐẮC LẮC</title>
+<link>http://htvonline.com.vn/livetv/dac-lac-drt-36386E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06012014/drt_16681389004338.png</thumbnail>
+</item>
+
+<item>
+<title>ĐẮC NÔNG</title>
+<link>http://htvonline.com.vn/livetv/dac-nong-ptd-36396E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06012014/ptd_89911389004281.png</thumbnail>
+</item>
+
+<item>
+<title>ĐỒNG THÁP THDT</title>
+<link>http://htvonline.com.vn/livetv/dong-thap-thdt-36306E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/15012014/thdtlogo_27321389779800.png</thumbnail>
+</item>
+
+<item>
+<title>ĐỒNG NAI</title>
+<link>http://htvonline.com.vn/livetv/dong-nai-1-3136356E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/05112015/dongnai1_11911446714342.png</thumbnail>
+</item>
+
+
+<item>
+<title>HUẾ</title>
+<link>http://htvonline.com.vn/livetv/hue-trt-36346E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06012014/trt_16851389004073.png</thumbnail>
+</item>
+
+<item>
+<title>HẬU GIANG HGV</title>
+<link>http://htvonline.com.vn/livetv/hau-giang-3134376E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/15012015/logo_haugiang_35281421295310.png</thumbnail>
+</item>
+
+<item>
+<title>HẢI DƯƠNG</title>
+<link>http://htvonline.com.vn/livetv/haiduong-3133316E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/22052014/haiduong_86191400730736.png</thumbnail>
+</item>
+
+<item>
+<title>HÀ TĨNH</title>
+<link>http://htvonline.com.vn/livetv/ha-tinh-3134396E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/21052015/logo-ha-tinh_92671432174373.png</thumbnail>
+</item>
+
+<item>
+<title>KHÁNH HÒA KTV</title>
+<link>http://htvonline.com.vn/livetv/khanh-hoa-ktv-3130346E61.html	</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/21012014/khanhhoa_96941390299027.png</thumbnail>
+</item>
+
+<item>
+<title>KIÊN GIANG</title>
+<link>http://htvonline.com.vn/livetv/kien-giang-3134366E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/19112014/kiengiang_logo_94061416392363.png</thumbnail>
+</item>
+
+<item>
+<title>TÂY NINH TTV11</title>
+<link>http://htvonline.com.vn/livetv/tayninh-3134316E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/25072014/ttv_11__76601406270531.png</thumbnail>
+</item>
+
+<item>
+<title>LẠNG SƠN LSTV</title>
+<link>http://htvonline.com.vn/livetv/lang-son-lstv-38396E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06012014/lstv_41791389003996.png</thumbnail>
+</item>
+
+<item>
+<title>NINH BÌNH</title>
+<link>http://htvonline.com.vn/livetv/ninhbinh-3134326E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/13082014/ninhbinh_76041407894509.png</thumbnail>
+</item>
+
+<item>
+<title>MIỀN TÂY</title>
+<link>http://htvonline.com.vn/livetv/mientay-3138306E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/14072016/thdt2_56351468491158.png</thumbnail>
+</item>
+
+<item>
+<title>NAM ĐỊNH</title>
+<link>http://htvonline.com.vn/livetv/nam-dinh-ntv-3130386E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/02012014/namdinh_44191388632405.png</thumbnail>
+</item>
+
+<item>
+<title>QUẢNG NAM</title>
+<link>http://htvonline.com.vn/livetv/quang-nam-qrt-3130356E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/21012014/quang-nam_58201390299076.png</thumbnail>
+</item>
+
+<item>
+<title>LÀO CAI</title>
+<link>http://htvonline.com.vn/livetv/lao-cai-thlc-37306E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06012014/thlc_30421389003882.png</thumbnail>
+</item>
+
+<item>
+<title>LONG AN LA34</title>
+<link>http://htvonline.com.vn/livetv/long-an-la34-35346E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06012014/la34_24471389003778.png</thumbnail>
+</item>
+
+<item>
+<title>THÁI NGUYÊN</title>
+<link>http://htvonline.com.vn/livetv/thainguyen-3134356E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/20102014/thai-nguyen-tv-475x360_87721413796527.png</thumbnail>
+</item>
+
+<item>
+<title>TRÀ VINH</title>
+<link>http://htvonline.com.vn/livetv/tra-vinh-36316E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/27122013/tra-vinh_12891388140964.png</thumbnail>
+</item>
+
+<item>
+<title>TIỀN GIANG</title>
+<link>http://htvonline.com.vn/livetv/tien-giang-3136376E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06112015/thtg_31161446782024.png</thumbnail>
+</item>
+
+<item>
+<title>SÓC TRĂNG</title>
+<link>http://htvonline.com.vn/livetv/soc-trang-stv-35386E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/21012014/std-logo_90471390298988.png</thumbnail>
+</item>
+
+<item>
+<title>VĨNH PHÚC</title>
+<link>http://htvonline.com.vn/livetv/vinh-phuc-vp-37316E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/06012014/vp_63421389003728.png</thumbnail>
+</item>
+
+<item>
+<title>VĨNH LONG 1</title>
+<link>http://htvonline.com.vn/livetv/thvl1-vinh-long-36326E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/20012014/thvl1_65831390202372.png</thumbnail>
+</item>
+
+<item>
+<title>VĨNH LONG 2</title>
+<link>http://htvonline.com.vn/livetv/vinh-long-2-3136366E61.html</link>
+<thumbnail>http://img.htvonline.com.vn/livetv/05112015/vinhlong2_57831446714946.png</thumbnail>
+</item>
+
+</items>
+</channel>

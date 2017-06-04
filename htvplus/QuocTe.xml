@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+<name>Kenh Nuoc Ngoai</name>
+<items>
+
+
+<item>
+<title>CNN</title>
+<link>
+http://hlscache.fptplay.net.vn/qnet/cnn_hls.smil/chunklist_b2500000.m3u8?token=eyJ2YWxpZF9taW51dGVzIjogMTQ3MDQzMzQ2NywgInRva2VuIjogIjE0ZDc0YTkxNTA1NjBlZTFmMzQ1MTczYzQwMmU2MGU5IiwgInNlcnZlcl90aW1lIjogMTQ3MDM0NzA2NywgInBhcnRuZXJfaWQiOiAiNTcxM2JlOGMwN2U0MmVkNGI5MTYzODhlIiwgInJlc291cmNlX2lkIjogImNubl9obHMifQ%3D%3D
+</link>
+<thumbnail>http://bit.ly/2axIHzt</thumbnail>
+</item>
+
+<item>
+<title>BBC</title>
+<link>
+http://27.67.50.69:18080/22_2.m3u8?AdaptiveType=HLS
+</link>
+<thumbnail>http://bit.ly/2aUseLk</thumbnail>
+</item>
+
+<item>
+<title>BLOOMBERG</title>
+<link>
+http://27.67.50.68:18080/44_2.m3u8?AdaptiveType=HLS
+</link>
+<thumbnail>http://bit.ly/2aUsYjB</thumbnail>
+</item>
+
+
+<item>
+<title>Star World</title>
+<link>http://www.htvonline.com.vn/livetv/star-world-hd-3132386E61.html</link>
+<thumbnail>http://bit.ly/2b6GhKh</thumbnail>
+</item>
+
+<item>
+<title>National Geographic
+ </title>
+<link>
+http://www.htvonline.com.vn/livetv/national-geographic-3132366E61.html
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/hd-natgeo.png</thumbnail>
+</item>
+
+<item>
+<title>STAR MOVIE HD</title>
+<link>http://www.htvonline.com.vn/livetv/star-movie-hd-3132376E61.html</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/hd-movies.png</thumbnail>
+</item>
+
+<item>
+<title>FOX SPORT HD</title>
+<link>
+http://www.htvonline.com.vn/livetv/fox-sports-1-hd-3134346E61.html
+</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/hd-foxsport.png</thumbnail>
+</item>
+
+<item>
+<title>FOX SPORT 2 HD</title>
+<link>http://www.htvonline.com.vn/livetv/espn-hd-3132346E61.html</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/hd-foxsport2.png</thumbnail>
+</item>
+
+<item>
+<title>Channel A</title>
+<link>http://edge1.everyon.tv/etv1/pld251/playlist.m3u8</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/channela.jpg</thumbnail>
+</item>
+
+<item>
+<title>JTBC</title>
+<link>http://edge2.everyon.tv/etv2/pld343/playlist.m3u8</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/jtbc.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>MBN</title>
+<link>http://edge1.everyon.tv/etv1/pld17/playlist.m3u8</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/mbn.jpg</thumbnail>
+</item>
+
+<item>
+<title>ABC News</title>
+<link>http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8?sd=10&b=1200&rebase=on</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/abcnews.jpg</thumbnail>
+</item>
+
+<item>
+<title>Motorsport 7 Channel Australia</title>
+<link>http://motorsport.hopto.org:8080/</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/speed.jpg</thumbnail>
+</item>
+
+<item>
+<title>PORSCHE CHANNEL </title>
+<link>mms://100automoto.tv/channel_porsche</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/porsche.jpg</thumbnail>
+</item>
+
+<item>
+<title>AutoSport TV </title>
+<link>mms://100automoto.tv/100livesport</link>
+<thumbnail>http://spyphoneapps.com/repo/tv/img/autosport.jpg</thumbnail>
+</item>
+
+<item>
+<title>Animal Planet</title>
+<link>http://80.80.160.168/live/1/live.m3u8</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/animalplanet.jpg
+</thumbnail>
+</item>
+<item>
+<title>Planet Green</title>
+<link>
+http://80.80.160.168/live/4/live.m3u8
+</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/planetgreen.jpg
+</thumbnail>
+</item>
+<item>
+<title>Discovery Channel</title>
+<link>http://80.80.160.168/live/8/live.m3u8</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/discovery.jpg
+</thumbnail>
+</item>
+<item>
+<title>ID Channel</title>
+<link>http://80.80.160.168/live/5/live.m3u8</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/idchannel.jpg
+</thumbnail>
+</item>
+<item>
+<title>SHOWTIME HD</title>
+<link>http://80.80.160.168/live/7/live.m3u8</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/hd-showtime.png
+</thumbnail>
+</item>
+<item>
+<title>Sci Channel</title>
+<link>http://80.80.160.168/live/9/live.m3u8</link>
+<thumbnail>
+http://spyphoneapps.com/repo/tv/img/scichannel.jpg
+</thumbnail>
+</item>
+
+</items>
+</channel>
