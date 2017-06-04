@@ -14,7 +14,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.htv" version="1.0.2" name="*[COLOR lime][B]hTV Plus[/B][/COLOR]" provider-name="HackPhone Repo">
+<addon id="plugin.video.htv" version="1.5.0" name="*[COLOR lime][B]hTV Plus[/B][/COLOR]" provider-name="HackPhone Repo">
 	<requires> 
 		<import addon="script.module.simplejson" />	
 		<import addon="xbmc.python" version="2.1.0"/>
